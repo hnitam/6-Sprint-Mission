@@ -7,9 +7,7 @@ export default function Boards() {
 
   async function getArticles() {
     const res = await axios.get(`/articles`);
-    console.log(res);
     const nextArticles = res.data.list;
-    console.log(typeof(nextArticles));
     setArticles(nextArticles);
   }
 
