@@ -7,7 +7,6 @@ function formatDate(value) {
 }
 
 export default function ArticleList({ articles = [] }) {
-  console.log(articles.writer);
   return (
     <ul className={styles.articleContain}>
       {articles.map((article) => (
