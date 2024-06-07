@@ -9,6 +9,12 @@ const nextConfig = {
         port: "",
         pathname: "/Sprint_Mission/user/**",
       },
+      {
+        protocol: "https",
+        hostname: "example.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
