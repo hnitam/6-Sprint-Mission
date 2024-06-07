@@ -17,12 +17,12 @@ export default function SearchForm({ initialValue = "" }) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.searchInputWrap}>
-      <div className={styles.searchIcon}>
+    <form onSubmit={handleSubmit} className={styles.search_input_wrap}>
+      <div className={styles.search_icon}>
         <Image fill src="/ic_search.png" alt="검색 아이콘" />
       </div>
       <input
-        className={styles.searchInput}
+        className={styles.search_input}
         name="keyword"
         value={value}
         placeholder="검색할 상품을 입력해 주세요"

@@ -1,4 +1,4 @@
-.searchInput {
+.search_input {
     width: 1054px;
     height: 42px;
     border: none;
@@ -7,13 +7,13 @@
     margin: 24px 0;
     padding-left: 44px;
 }
-.searchInputWrap {
+.search_input_wrap {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.searchIcon {
+.search_icon {
   position: absolute;
   left: 20px;
   width: 15px;

@@ -1,9 +1,9 @@
-.linkStyles{
+.link_styles{
     text-Decoration: none;
     padding: 24px 23px;
     color: #4b5563;
 }
-.linkStyles:hover{
+.link_styles:hover{
     color: #3692ff;
 }
 
@@ -25,16 +25,16 @@
     height: 51px;
 }
 
-.navMenu {
+.nav_menu {
     display: flex;
     list-style: none;
 }
 
-.navMenu li {
+.nav_menu li {
     padding: 24px 23px;
 }
 
-.loginBtn{
+.login_btn{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,10 +45,10 @@
     border-radius: 8px;
 }
 
-.loginBtn:hover {
+.login_btn:hover {
     background-color: #1967D6;
 }
 
-.loginBtnText {
+.login_btn_text {
     color: #ffffff;
 }
